@@ -17,7 +17,7 @@ public static void main(String[] args) {
 	for(int i=0;i<books.size();i++) {
 		System.out.println(books.get(i).getTitle());
 	}
-	//System.out.println(service.getAuthor(5).getAuthorName());
+	System.out.println(service.getAuthor(5).getAuthorName());
 }
 
 }
